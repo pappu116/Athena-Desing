@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -81,4 +82,25 @@ a.nav-link {
 
 .archivstyle {
   padding: 50px 0px;
+}
+=======
+.font-style{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+}
+
+.custom-div:hover{
+    width: 330px;
+    height: 300px;
+    border-radius: 100px 0px;
+    background: #fff;
+    box-shadow: 0px 30px 50px rgba(32, 168, 111, 0.1);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.footer-logo{
+    width: 171.21px;
+    height: 117.59px;
+    background: transparent;
 }
