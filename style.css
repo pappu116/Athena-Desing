@@ -3,21 +3,33 @@ Rayhan .font-style {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 .custom-div:hover {
+=======
+.custom-div:hover{
+>>>>>>> fab70a4eb3a026a07a305dd9b0e7220ca0da96f2
   border-radius: 100px 0px;
   background: #fff;
   box-shadow: 0px 30px 50px rgba(32, 168, 111, 0.1);
   transition: 0.2s ease;
   cursor: pointer;
 }
+<<<<<<< HEAD
 .custom-div-one {
+=======
+.custom-div-one{
+>>>>>>> fab70a4eb3a026a07a305dd9b0e7220ca0da96f2
   border-radius: 100px 0px;
   background: #fff;
   box-shadow: 0px 30px 50px rgba(32, 168, 111, 0.1);
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .footer-logo {
+=======
+.footer-logo{
+>>>>>>> fab70a4eb3a026a07a305dd9b0e7220ca0da96f2
   width: 150.21px;
   height: 100.59px;
   background: transparent;
@@ -28,7 +40,17 @@ Rayhan .font-style {
   margin: 0;
   list-style: none;
 }
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+=======
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafffd;
+}
+.navbar-brand img {
+  height: 80px;
+}
+>>>>>>> fab70a4eb3a026a07a305dd9b0e7220ca0da96f2
 a.nav-link {
   font-weight: 700;
   margin-right: 10px;
@@ -55,9 +77,30 @@ h2 {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .stay {
   background-image: url(image/headerbgside.png);
   background-position: left top;
+=======
+/* .stay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -200px;
+} */
+.stylis {
+  padding: 50px 0px;
+  padding-top: 200px;
+}
+.stay{
+  background-image: url(image/headerbgside.png);
+  z-index: 2;
+  position: relative;
+  background-position: left top;
+  bottom: 170px;
+  
+>>>>>>> fab70a4eb3a026a07a305dd9b0e7220ca0da96f2
 }
 
 .item1 img {
@@ -108,15 +151,25 @@ h2 {
 }
 
 .archivstyle {
+<<<<<<< HEAD
   padding: 100px 0px;
 }
 
 /* payal */
 #pricing-area {
+=======
+  position: relative;
+  bottom: 100px;
+}
+
+/* payal */
+#pricing-area{
+>>>>>>> fab70a4eb3a026a07a305dd9b0e7220ca0da96f2
   background-image: url(image/headerbgside.png);
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: right top;
+<<<<<<< HEAD
 }
 .team-work .price {
   background-color: white;
@@ -141,21 +194,44 @@ h2 {
   display: none;
 }
 .team-work .price hr {
+=======
+  
+}
+.team-work .price{
+  background-color: white;
+  box-shadow: 8px 5px 20px #ccc;
+  padding: 5px;
+  padding-top: 25px;
+}
+.priceOne{
+  border: 3px solid #64cee4;
+}
+.team-work .price hr{
+>>>>>>> fab70a4eb3a026a07a305dd9b0e7220ca0da96f2
   margin: auto;
   width: 55%;
   border: 0.2px solid #64cee4;
   border-color: linear-gradient(90deg, #0ebbdc, #1edcb6);
 }
+<<<<<<< HEAD
 .input-search {
   position: relative;
 }
 
 .search {
+=======
+.input-search{
+  position: relative;
+}
+
+.search{
+>>>>>>> fab70a4eb3a026a07a305dd9b0e7220ca0da96f2
   background-image: linear-gradient(120deg, #1cd8ba, #2ebbed);
   width: 100px;
   color: white;
   margin-top: 30px;
   position: absolute;
+<<<<<<< HEAD
   left: 57%;
   height: 40px;
   font-size: 10px;
@@ -181,4 +257,32 @@ h2 {
     height: 40px;
     font-size: 10px;
   }
+=======
+  left: 59%;
+  height: 40px;font-size:10px
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .footer-icon {
+    text-align: center;
+>>>>>>> fab70a4eb3a026a07a305dd9b0e7220ca0da96f2
+}
+.footer-icons{
+  margin-left: 140px;
+}
+.items{
+  text-align: center;
+}
+.search{
+  background-image: linear-gradient(120deg, #1cd8ba, #2ebbed);
+  width: 100px;
+  color: white;
+  margin-top: 30px;
+  position: absolute;
+  left: 75%;
+  height: 40px;font-size:10px
+}
+
+
 }
