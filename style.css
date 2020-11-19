@@ -1,22 +1,26 @@
 /* Rayhan */
-.font-style{
-  font-family: 'Yeseva One', cursive;
-  font-weight: 500;
+.font-style {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
 }
 
-.custom-div:hover{
-  width: 330px;
-  height: 300px;
+.custom-div:hover {
   border-radius: 100px 0px;
   background: #fff;
   box-shadow: 0px 30px 50px rgba(32, 168, 111, 0.1);
   transition: 0.2s ease;
   cursor: pointer;
 }
+.custom-div-one {
+  border-radius: 100px 0px;
+  background: #fff;
+  box-shadow: 0px 30px 50px rgba(32, 168, 111, 0.1);
+  cursor: pointer;
+}
 
-.footer-logo{
-  width: 171.21px;
-  height: 117.59px;
+.footer-logo {
+  width: 150.21px;
+  height: 100.59px;
   background: transparent;
 }
 /* Rayhan */
@@ -25,17 +29,17 @@
   margin: 0;
   list-style: none;
 }
-body {
-  font-family: "Montserrat", sans-serif;
-}
-.navbar-brand img {
-  height: 80px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 a.nav-link {
   font-weight: 700;
   margin-right: 10px;
 }
-
+.hader-text h1,
+h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #0d052e;
+}
 .btn-cruve {
   background-image: linear-gradient(120deg, #1cd8ba, #2ebbed);
   padding: 10px 25px;
@@ -43,31 +47,19 @@ a.nav-link {
   border-bottom-right-radius: 20px;
   color: #fff;
 }
+.header {
+  background-image: url(image/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
 
 .header-image img {
   width: 100%;
 }
 
 .stay {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  margin-top: -200px;
-}
-.stylis {
-  padding: 50px 0px;
-  padding-top: 200px;
-}
-.stay .x {
-  position: absolute;
   background-image: url(image/headerbgside.png);
-  background-position: center center;
-  right: -40%;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  z-index:-1;
+  background-position: left top;
 }
 
 .item1 img {
@@ -91,6 +83,13 @@ a.nav-link {
   background-image: linear-gradient(90deg, #0ebbdc, #1edcb6);
   color: #fff;
 }
+.fixtedcolor {
+  background-image: linear-gradient(90deg, #0ebbdc, #1edcb6);
+  color: #fff;
+}
+.logo img {
+  height: 80px;
+}
 .item2:hover {
   background-image: linear-gradient(90deg, #0ebbdc, #1edcb6);
   color: #fff;
@@ -111,5 +110,78 @@ a.nav-link {
 }
 
 .archivstyle {
-  padding: 50px 0px;
+  padding: 100px 0px;
+}
+
+/* payal */
+#pricing-area {
+  background-image: url(image/headerbgside.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.team-work .price {
+  background-color: white;
+  box-shadow: 8px 5px 20px #ccc;
+  padding: 5;
+  margin: 5px 0;
+  padding-top: 25px;
+  border: 3px solid #fff;
+  height: 560px;
+}
+
+.price:hover {
+  transition: 0.2s ease;
+  border: 3px solid #64cee4;
+}
+.price:hover .hide-btn {
+  display: block;
+  margin: 0px 100px;
+}
+
+.hide-btn {
+  display: none;
+}
+.team-work .price hr {
+  margin: auto;
+  width: 55%;
+  border: 0.2px solid #64cee4;
+  border-color: linear-gradient(90deg, #0ebbdc, #1edcb6);
+}
+.input-search {
+  position: relative;
+}
+
+.search {
+  background-image: linear-gradient(120deg, #1cd8ba, #2ebbed);
+  width: 100px;
+  color: white;
+  margin-top: 30px;
+  position: absolute;
+  left: 57%;
+  height: 40px;
+  font-size: 10px;
+}
+.footer-icon {
+  justify-content: start;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-icon {
+    margin-left: 15%;
+  }
+  .items {
+    text-align: center;
+  }
+
+  .search {
+    background-image: linear-gradient(120deg, #1cd8ba, #2ebbed);
+    width: 100px;
+    color: white;
+    margin-top: 30px;
+    position: absolute;
+    left: 60%;
+    height: 40px;
+    font-size: 10px;
+  }
 }
