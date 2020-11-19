@@ -28,6 +28,11 @@ Rayhan .font-style {
   margin: 0;
   list-style: none;
 }
+.what-bg {
+  background-image: url(image/what.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 a.nav-link {
   font-weight: 700;
