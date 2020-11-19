@@ -1,10 +1,10 @@
 /* Rayhan */
-.font-style{
-  font-family: 'Yeseva One', cursive;
+.font-style {
+  font-family: "Yeseva One", cursive;
   font-weight: 500;
 }
 
-.custom-div:hover{
+.custom-div:hover {
   width: 330px;
   height: 300px;
   border-radius: 100px 0px;
@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-.footer-logo{
+.footer-logo {
   width: 171.21px;
   height: 117.59px;
   background: transparent;
@@ -48,6 +48,12 @@ a.nav-link {
   width: 100%;
 }
 
+.header {
+  background-image: url(image/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: -7px;
+}
 .stay {
   position: relative;
   height: 100%;
@@ -67,7 +73,7 @@ a.nav-link {
   bottom: 0;
   height: 100%;
   width: 100%;
-  z-index:-1;
+  z-index: -1;
 }
 
 .item1 img {
